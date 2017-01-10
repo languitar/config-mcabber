@@ -417,17 +417,17 @@ set escdelay = 50
 # rosternewmsg: text color of items with unread messages
 #
 
-# set color_background   = black
+set color_background   = default
 # set color_general      = white
 set color_info         = 8
-set color_msgin        = blue
-set color_msgout       = white
+set color_msgin        = 4
+set color_msgout       = 7
 # set color_msghl        = 9
-set color_bgstatus     = white
-set color_status       = black
+set color_bgstatus     = 24
+# set color_status       = black
 # set color_log          = 12
 # set color_roster       = 12
-# set color_bgrostersel  = 11
+set color_bgrostersel  = 24
 # set color_rostersel    = white
 # set color_rosterselmsg = 9
 # set color_rosternewmsg = 9
