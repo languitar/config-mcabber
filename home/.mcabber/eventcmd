@@ -16,6 +16,7 @@ if len(sys.argv) == 5:
     event, arg1, arg2, filename = sys.argv[1:5]
 elif len(sys.argv) == 4:
     event, arg1, arg2 = sys.argv[1:4]
+    filename = None
 else:
     print("Unexpected number of arguments: " + str(sys.argv))
     sys.exit(1)
